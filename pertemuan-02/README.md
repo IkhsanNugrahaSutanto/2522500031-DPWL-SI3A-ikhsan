@@ -52,7 +52,7 @@ Berikut adalah tabel pemetaan alur permintaan (*request*) dari URL ke Controller
 ### 8. Gambar 1. Hasil Pengujian Halaman Utama
 ![Gambar 1](dokumentasi/gambar1.png)
 
-### Gambar 2. Hasil Pengujian Custom Route Mahasiswa
+### Gambar 2. Hasil Pengujian Custom Route project
 ![Gambar 2](dokumentasi/gambar2.png)
 
 ### Gambar 3. Hasil Pengujian Route Info
