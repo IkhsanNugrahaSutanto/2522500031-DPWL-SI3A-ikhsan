@@ -24,7 +24,7 @@ pertemuan-02/
 │   └── core/            # Inti kerangka kerja (Controller.php, Router.php)
 ├── index.php            # Front Controller (pintu masuk utama)
 └── README.md            # Berkas laporan praktikum
-
+```
 ## 3. Front Controller
 index.php berfungsi sebagai Front Controller yang menerima seluruh lalu lintas URL, memuat berkas konfigurasi, memanggil Router, serta mengeksekusi Controller yang dituju
 
