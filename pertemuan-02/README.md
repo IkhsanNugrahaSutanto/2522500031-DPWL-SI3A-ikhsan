@@ -47,7 +47,7 @@ Berikut adalah tabel pemetaan alur permintaan (*request*) dari URL ke Controller
 
 ## 6. Alur Request-ResponseAlur Aktual P2:Browser $\rightarrow$ index.php $\rightarrow$ Router $\rightarrow$ Controller $\rightarrow$ View $\rightarrow$ Response.Posisi Model (MVC Utuh):Browser $\rightarrow$ index.php $\rightarrow$ Router $\rightarrow$ Controller $\rightarrow$ Model $\rightarrow$ Basis Data $\rightarrow$ Model $\rightarrow$ Controller $\rightarrow$ View $\rightarrow$ Response.Catatan: Komponen Model belum digunakan pada P2 karena pemrosesan basis data baru dipelajari di P3.
 
-## 7. Hasil Pengujian dan DebuggingSkenario Valid: Mengakses rute /, info/routing, dan pemancing/1 berhasil menampilkan data yang sesuai.Skenario Tidak Valid: Akses ke rute sembarang (misal home/xyz) menghasilkan respon error 404 Not Found.Proses Debugging:Gejala: Perubahan data profil pemancing tidak terbarui di browser.Penyebab: Berkas di editor VS Code belum disimpan (unsaved).Perbaikan: Menekan Ctrl + S untuk menyimpan berkas.Hasil Uji Ulang: Tampilan profil pemancing berhasil diperbarui.
+## 7. Hasil Pengujian dan DebuggingSkenario Valid: Mengakses rute /, info/routing, dan project/1 berhasil menampilkan data yang sesuai.Skenario Tidak Valid: Akses ke rute sembarang (misal home/xyz) menghasilkan respon error 404 Not Found.Proses Debugging:Gejala: Perubahan data profil project tidak terbarui di browser.Penyebab: Berkas di editor VS Code belum disimpan (unsaved).Perbaikan: Menekan Ctrl + S untuk menyimpan berkas.Hasil Uji Ulang: Tampilan profil project berhasil diperbarui.
 
 ### 8. Gambar 1. Hasil Pengujian Halaman Utama
 ![Gambar 1](gambar1.png)
