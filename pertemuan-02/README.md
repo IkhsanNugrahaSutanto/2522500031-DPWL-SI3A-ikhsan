@@ -56,7 +56,7 @@ Berikut adalah tabel pemetaan alur permintaan (*request*) dari URL ke Controller
 ![Gambar 2](dokumentasi\gambar2.png)
 
 ### Gambar 3. Hasil Pengujian Route Info
-![Gambar 3] (dokumentasi\gambar3.png)
+![Gambar 3](dokumentasi\gambar3.png)
 
 ## 9. Kesimpulan P2
 Praktikum P2 berhasil mengimplementasikan front controller, pemetaan rute dinamis, serta pemisahan logika (project.php) dan tampilan (view). Pengelolaan data melalui Model dan basis data akan dilanjutkan pada P3.
