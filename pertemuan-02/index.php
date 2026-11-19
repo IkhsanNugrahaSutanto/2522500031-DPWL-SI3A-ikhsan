@@ -6,6 +6,14 @@ require_once APPPATH . 'config/config.php';
 require_once APPPATH . 'helpers/url_helper.php';
 require_once SYSPATH . 'core/controller.php';
 require_once SYSPATH . 'core/Router.php';
+
+// Pengujian awal
+if ($db->query('SELECT 1')) {
+echo 'Koneksi basis data berhasil.';
+} else {
+echo 'Koneksi basis data gagal.';
+}
+
 $route = [];
 require APPPATH . 'config/routes.php';
 $uri = $_SERVER['PATH_INFO'] ?? '';
